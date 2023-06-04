@@ -1,21 +1,76 @@
-Congrats! 🎉
+Assignment 1: Real-time Voice Transcription App
 
-If you made it here then you have passed our initial screening. Welcome to second round of your interview.
+Objective: Create a real-time voice transcription app using Streamlit.
 
-During this round, we will evaluate your ability to handle new and intricate learning challenges. Choose one of the following assignments. But don't spend no more than 12 hours working on it. After 12 hours, please submit your progress, regardless of the extent of completion. Feel free to generate code using AI tools and chat apps like chatgpt, bing chat, code copilots, codium etc.
+Introduction: The Real-time Voice Transcription App is a web application that allows users to transcribe their speech in real-time. With just a click of a microphone button, users can have their speech automatically transcribed as they speak. This app utilizes Streamlit to provide a user-friendly interface and a seamless transcription experience.
 
-To access the assignment details, kindly visit the ***#second-round*** channel . If you have any questions ask in the ***#interview-doubts*** channel.
+Technologies Used: Python, Streamlit, sounddevice, SpeechRecognition, puaudio
 
-Discord link -<https://discord.gg/uTYkFDS8>
+Key Features:
 
-To create a pull request for a public git repo, you need to follow these steps:
+    Real-time transcription: Transcribe speech in real-time as the user speaks.
+    Microphone input: Capture audio input through the microphone.
+    Speech recognition: Utilize speech recognition libraries to convert audio into text.
+    User-friendly interface: Streamlit provides an intuitive and easy-to-use interface for a seamless transcription experience.
 
--   Fork the repo that you want to contribute to. This will create a copy of the repo under your own GitHub account. You can fork a repo by clicking the **Fork** button on the top right corner of the repo page.
--   Clone your forked repo to your local machine. You can do this by running **`git clone <https://github.com/your-username/repo-name.git`**> in your terminal, where **`your-username`** is your GitHub username and **`repo-name`** is the name of the repo you forked.
--   Create a new branch for your changes. You can do this by running **`git checkout -b branch-name`**, where **`branch-name`** is a descriptive name for your branch.
--   Make your changes in the new branch. You can use any code editor or IDE that you prefer. You can also use GitHub Desktop to manage your changes.
--   Add and commit your changes to the new branch. You can do this by running **`git add .`** to stage all your changes and **`git commit -m "message"`** to commit them with a message, where **`message`** is a brief summary of what you did.
--   Push your changes to your forked repo on GitHub. You can do this by running **`git push origin branch-name`**, where **`branch-name`** is the name of your branch.
--   Create a pull request from your forked repo to the original repo. You can do this by going to your forked repo on GitHub and clicking the **Compare & pull request** button. This will open a page where you can review your changes and add a title and a description for your pull request. You can also link your pull request to an issue if there is one related to your changes. Then click **Create pull request** to submit it.
+Installation:
+Open a terminal or command prompt.
+Ensure you have Python and pip installed on your system.
+Install the Streamlit library by running the following command:
+pip install streamlit
+Wait for the installation to complete. Once it's finished, try running the Streamlit app again using the command:
+python -m streamlit run realtime_transcription_app.py
 
-That's it! You have created a pull request for a public git repo. Now you need to wait for the maintainers of the original repo to review and merge your pull request. They might also ask you for some feedback or changes before merging it. You can communicate with them through the comments section of your pull request.
+Usage:
+
+    Launch the app by running streamlit run app.py.
+    Click the "Initialize transcription" button to begin capturing audio.
+    Speak into the microphone to have your speech transcribed in real-time.
+    The transcribed text will be displayed in the text area.
+
+Assignment 2: Implement Token Healing in Python
+
+Objective: Understand token healing as implemented in Microsoft's GUIDANCE and create a standalone Python script to perform token healing on a given text.
+
+Introduction: Token Healing is a technique used to correct errors in text by identifying and replacing incorrect or mistyped tokens with their intended correct forms. The Python script developed for this assignment implements token healing, inspired by Microsoft's GUIDANCE. It aims to enhance the quality of text data by automatically correcting common errors.
+
+Technologies Used: Python, Spellchecker
+
+Key Features:
+
+    Token Healing: Identify and replace incorrect or mistyped tokens with their correct forms.
+    Error Correction: Improve the quality of text data by automatically correcting common errors.
+    Standalone Script: The Python script can be run independently on any given text.
+
+Installation:
+
+    Download or clone the repository.
+    Ensure Python is installed on your system.
+    Run the script using python token_healing_text.py.
+
+Usage:
+
+    Prepare a text file or provide a string input containing the text to be processed.
+    Run the token_healing_text.py script.
+    The script will analyze the text and perform token healing, correcting errors and improving the overall quality.
+    The corrected text will be displayed or saved, depending on the script configuration.
+
+Assignment 3: Optimize Prompt Text for Language Model API Calls
+
+Objective: Develop a method to reduce the token count of prompt text without losing critical information, to minimize token usage when calling language models like GPT-3.
+
+Introduction: The Optimize Prompt Text script is a tool developed to reduce the token count of prompt text without sacrificing important information. When interacting with language model APIs like GPT-3, minimizing token usage is crucial for cost efficiency and response time. This script offers an optimization method to maximize the utilization of available tokens while preserving critical information.
+
+Technologies Used: Python
+
+Key Features:
+
+    Token Count Reduction: Minimize the token count of prompt text.
+    Information Preservation: Preserve critical information during token optimization.
+
+Installation:
+
+    Ensure Python is installed on your system.
+    Run the script using python reduce_token_count.py
+
+
